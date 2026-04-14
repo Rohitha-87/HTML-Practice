@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram clone</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            width: 350px;  
+        }
+        .box{
+            background: #fff;
+            text-align: center;
+            border: 2px solid #dbdbdb;
+            padding: 30px;
+            
+        }
+        .logo{
+            font-family: cursive;
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+        input{
+            background-color: #fafafa;
+            width: 100%;
+            background: #fafafa;
+            padding: 10px;
+            margin: 8px;
+            outline: none;
+            border: 1px solid #dbdbdb;
+        }
+        button{
+            width: 100px;
+            padding: 10px;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            margin-top: 8px;
+            background-color: #0095f6;
+        }
+        .or{
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px 0;
+        }
+        .or span{
+            flex: 1;
+            height: 1px;
+            background-color: #dbdbdb;
+        }
+        .or p{
+            font-size: 12px;
+            color: #8e8e8e;
+            margin: 0 12px;
+        }
+        .login{
+            display: block;
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: #385185;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .forgot{
+            color: #0095f6;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .sign-in{
+            background-color: #fff;
+            display: flex;
+            font-weight: bold;
+            align-items: center;
+            border: 1px solid #dbdbdb;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .sign-in{
+            color: #0095f6;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h1 class="logo">Instagram</h1>
+            <input type="text" placeholder="Phone number, Username, or email"><br>
+            <input type="password" placeholder="password"><br>
+            <button class="log-in">Log in</button>
+            <div class="or">
+                <span></span>
+                <p>OR</p>
+                <span></span>
+            </div>
+            <a href="#forgot" class="login">Login with facebook</a>
+            <a href="#forgot" class="forgot">Forgot password</a>
+        </div>
+        <div class="sign-in">
+            <h3>Don't have an account?</h3>
+            <a class="anchor">Siign Up</a>
+        </div>
+    </div>
+</body>
+</html>

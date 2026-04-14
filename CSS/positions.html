@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            height: 100vh;
+        }
+        .positions{
+            margin: 10px;
+            padding: 15px;
+            color: white;
+            width: 500px;
+        }
+        .relative{
+            background-color: navy;
+            padding: 15px;
+            margin: 10px;
+            position:relative;
+            top: 120px;
+        }
+        .absolute{
+            background-color: crimson;
+            padding: 15px;
+            margin: 10px;
+            position: absolute;
+            bottom: 120px;
+        }
+        .fixed{
+            background-color: darkseagreen;
+            padding: 15px;
+            margin: 10px;
+            position: fixed;
+            bottom: 30px;
+        }
+        .sticky{
+            background-color: darkcyan;
+            color: white;
+            padding: 10px;
+            position:sticky;
+            top:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="positions">
+        <div class="relative">RElative Positions Opp direction</div>
+        <div class="absolute">Out of the box same direction</div>
+        <div class="fixed">Fixed at the same positions</div>
+    </div>
+    <div class="sticky">Whwn it's turn fixed to their positions.</div>
+</body>
+</html>

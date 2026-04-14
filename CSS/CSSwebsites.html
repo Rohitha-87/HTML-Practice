@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding CSS in html</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .top-section{
+            background-color: wheat;
+            color:darkslateblue;
+            height: 50%;
+            text-align: center;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .line-hight{
+            line-height: 3.5rem;
+        }
+        .more-section{
+            background-color: violet;
+            color: dodgerblue;
+            text-align: center;
+        }
+        .card{
+            height:50%;
+            width:20%;
+            text-align: center;
+        }
+        .card-1{
+            background-color:darkblue;
+        }
+        .card-2{
+            background-color:firebrick;
+        }
+        .card-3{
+            background-color:olive;
+        }
+        p {
+            color:green;
+        }
+        .family{
+            color:magenta;
+        }
+        #friend{
+            color:aqua;
+        }
+        #button{
+            background-color: red;
+        }
+        #button:hover{
+            background-color: brown;
+        }
+        .rohi:hover{
+            background-color:palevioletred;
+        }
+        .main{
+            text-decoration: line-through;
+            text-transform: uppercase;
+            text-shadow: 5px 5px 2px green;
+        }
+        #brother{
+            color:darkorange;
+        }
+        .net::after{
+            content:"❤️";
+        }
+        .net::first-letter{
+            color: green;
+        }
+        .anchor-1:link{
+            color:rgb(65, 123, 7);
+        }
+        .anchor-2:active{
+            color:red;
+        }
+        .anchor-2:visited{
+            color:orangered;
+        }
+    </style>
+</head>
+<body>
+    <section class="top-section">
+    <h1 class="net">Netflix</h1>
+    <h1 class="rohi">Netflix Pro</h1>
+    <h1 style="color:blueviolet;">Unlimited Movies,shows and more.</h1>
+    <p>Starts at Rs.149/.Cancel at any time.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicious doloribus.</p>
+    <p><strong>Ready To Watch</strong> Enter email to create or restart your membership.</p>
+    <h2 class="line-hight">this is Roitha Mareddy</h2>
+    <h1 class="family">this is vijay bhaskar reddy</h1>
+    <h3 class="family">this is anupama</h3>
+    <h4 id="friend">this is praneeth mareddy</h4>
+    <h4 id="brother">This is Renu Madhavi</h4>
+    <input type="email" placeholder="enter your email">
+    <button id="button">Get started</button>
+    </section>
+    <section class="more-section">
+        <h2 class="main">More reasons to join</h2>
+    <div class="card card-1">
+        <h3>Enjoy on your TV</h3>
+        <p>Watch on <span style="color:red;">smart TVs, PlayStation,</span> Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+    </div>
+    <div class="card card-2">
+        <h3>Download your shows to watch offline</h3>
+        <p class="bold">Save your favourites easily and always have something to watch.</p>
+    </div>
+    <div class="card card-3">
+        <h3>Watch everywhere</h3>
+        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+    </div>
+    </section>
+    <a href="https://www.netflix.com/in/" class="anchor-1">Netflix login page</a><br>
+    <a href="https://chatgpt.com/" class="anchor-2">Chatgpt login page</a>
+</body>
+</html>
